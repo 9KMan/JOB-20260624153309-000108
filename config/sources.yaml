@@ -1,0 +1,20 @@
+yaml
+// config/sources.yaml
+# sources.yaml — feeds the crawl stage of the ingestion pipeline.
+#
+# Each entry describes a single crawlable source. The crawler honors
+# `rate_limit` (requests per second), `proxy_pool` (rotated per request),
+# and `headers` (static HTTP headers), and yields a normalized document
+# dict for each successful fetch.
+#
+# Secrets (DB passwords, API keys) must be supplied via environment
+# variables — do not commit credentials into this file.
+
+sources:
+  - name: example_source
+    url: https://example.com/feed
+    kind: rss
+    rate_limit: 100
+    proxy_pool: []
+    headers: {}
+
