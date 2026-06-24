@@ -1,3 +1,4 @@
+// .coding_prompt.txt
 You are a senior full-stack engineer. Write ALL source code for this project.
 
 ## Objective
@@ -63,62 +64,3 @@ This engagement focuses on building the production-grade backend pipelines that:
 
 ## 4. Architecture
 
-```
-┌────────────────┐    ┌──────────────────┐    ┌──────────────────┐
-│  Public        │───▶│  Ingestion       │───▶│  S3 (raw docs)   │
-│  Sources       │    │  (Crawl4Ai)      │    └──────────────────┘
-└────────────────┘    └──────────────────┘             │
-                                                         ▼
-┌────────────────┐    ┌──────────────────┐    ┌──────────────────┐
-│  Graph DB      │◀───│  Normalization   │◀───│  LLM Extraction  │
-│  (Neptune/     │    │  + Resolution    │    │  (multi-pass)    │
-│   Neo4j)       │    └──────────────────┘    └──────────────────┘
-└────────────────┘                                    │
-       │                                              ▼
-       ▼                                    ┌──────────────────┐
-┌────────────────┐                          │  Bedrock /       │
-│  Query API     │                          │  SageMaker       │
-└────────────────┘                          └──────────────────┘
-       │
-       ▼
-┌────────────────┐
-│  Human Review  │
-│  (HITL)        │
-└────────────────┘
-```
-
-## 5. Deliverables
-
-- Document ingestion pipeline (Crawl4Ai)
-- Multi-pass LLM extraction service
-- Pydantic schema for ontology-aligned objects
-- Graph database writes (Neo4j/Neptune)
-- Query API endpoints
-- Human-in-the-loop review workflow
-- AWS deployment config
-- Monitoring + observability
-- README with onboarding guide
-
-## 6. Acceptance Criteria
-
-- Documents ingested at scale (10k+/day)
-- Multi-pass extraction produces ontology-aligned entities/events/relations
-- Graph queries return results in <1s for typical traversals
-- HITL review cycle is operational
-- AWS deployment is observable (CloudWatch dashboards)
-- Fine-tuning pipeline can ingest labeled examples
-
-
-## Task
-1. Read SPEC.md from /home/deploy/squad/build-worker/JOB-20260624153309-000108/SPEC.md
-2. Write complete production-ready source code files
-3. For Python: requirements.txt, alembic setup, FastAPI app, models, schemas, API routes, services, worker tasks
-4. For Node.js: package.json, src/ structure, tsconfig, etc.
-5. Include Docker support (Dockerfile, docker-compose.yml)
-6. Include README with "Business Problem Solved" as FIRST section after title
-7. All code must compile/be syntactically valid
-8. Output as file blocks: ```file:path
-content
-```
-
-Write every file completely. No stubs. No TODOs.
