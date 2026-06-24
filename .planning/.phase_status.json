@@ -33,5 +33,5 @@
     }
   },
   "tech_stack": "Language:** Python 3.11+, LLM/ML:** AWS Bedrock (Claude), SageMaker, fine-tuning pipelines, Graph DB:** Neo4j or AWS Neptune (Gremlin/Cypher), Data validation:** Pydantic, Web scraping:** Crawl4Ai, Scrapling, proxy rotation, Infrastructure:** AWS (ECS",
-  "ts": 1782315506.1269784
+  "ts": 1782315571.5855074
 }
