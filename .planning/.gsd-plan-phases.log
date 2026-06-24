@@ -1,0 +1,11 @@
+[17:38:26] Starting gsd-plan-phases for JOB-20260624153309-000108
+[17:38:26] Worker dir: /home/deploy/squad/build-worker/JOB-20260624153309-000108
+[17:38:26] Tech stack: Language:** Python 3.11+, LLM/ML:** AWS Bedrock (Claude), SageMaker, fine-tuning pipelines, Graph DB:** Neo4j or AWS Neptune (Gremlin/Cypher), Data validation:** Pydantic, Web scraping:** Crawl4Ai, Scrapling, proxy rotation, Infrastructure:** AWS (ECS
+[17:38:26] Phase 1 (Project Overview): /home/deploy/squad/build-worker/JOB-20260624153309-000108/.planning/phases/1-project-overview/PLAN-01.md [831 chars] [has_files=False]
+[17:38:26] Phase 2 (Technical Stack): /home/deploy/squad/build-worker/JOB-20260624153309-000108/.planning/phases/2-technical-stack/PLAN-01.md [1666 chars] [has_files=True]
+[17:38:26] Phase 3 (Architecture): /home/deploy/squad/build-worker/JOB-20260624153309-000108/.planning/phases/3-architecture/PLAN-01.md [3160 chars] [has_files=True]
+[17:38:26] Phase 4 (Data Model): /home/deploy/squad/build-worker/JOB-20260624153309-000108/.planning/phases/4-data-model/PLAN-01.md [2433 chars] [has_files=True]
+[17:38:26] Phase 5 (Project Structure): /home/deploy/squad/build-worker/JOB-20260624153309-000108/.planning/phases/5-project-structure/PLAN-01.md [1359 chars] [has_files=True]
+[17:38:26] Phase 6 (Out-of-Scope): /home/deploy/squad/build-worker/JOB-20260624153309-000108/.planning/phases/6-out-of-scope/PLAN-01.md [439 chars] [has_files=True]
+[17:38:26] Phase 7 (UI/UX): /home/deploy/squad/build-worker/JOB-20260624153309-000108/.planning/phases/7-ui/ux/PLAN-01.md [465 chars] [has_files=False]
+[17:38:26] DONE — PARTIAL
