@@ -1,3 +1,5 @@
+markdown
+// .planning/phases/5-project-structure/-SUMMARY-01.md
 # Summary: PLAN-01.md
 
 ## Overview
@@ -26,12 +28,3 @@ All code written and committed. Syntax checks passed.
 None — plan executed exactly as written.
 
 ## Key Decisions
-```file:.planning/phases/6-out-of-scope/OUT_OF_SCOPE.md
-markdown
-// .planning/phases/6-out-of-scope/OUT_OF_SCOPE.md
-# Out of Scope
-
-The following items are explicitly NOT included in this build of the AI Knowledge Graph Engineer platform.
-
-## Next
-Ready for next plan in this phase.

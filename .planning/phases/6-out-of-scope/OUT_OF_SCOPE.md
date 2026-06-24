@@ -1,5 +1,7 @@
 markdown
 // .planning/phases/6-out-of-scope/OUT_OF_SCOPE.md
+markdown
+// .planning/phases/6-out-of-scope/OUT_OF_SCOPE.md
 # Out of Scope
 
 The following items are explicitly NOT included in this build of the AI Knowledge Graph Engineer platform.
@@ -77,4 +79,5 @@ The items below are recognised as valuable follow-on work but are deferred to la
 - **Compliance & audit** — SOC2 / ISO27001 controls, audit log retention, data-residency options
 - **Multi-language document support** — full extraction quality parity across non-English languages
 - **SDKs in additional languages** — TypeScript / Go / Java client libraries
+
 
